@@ -1,1 +1,1 @@
-print('hi')
+import pytelebot
