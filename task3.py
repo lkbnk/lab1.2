@@ -1,7 +1,8 @@
-def high_year(year):
+def high_year():
+    year = int(input('Введите год: '))
     if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-        return "Год високосный"
+        print('Год ' + str(year) + ' високосный')
     else:
-        return "Этот год не високосный"
+        print ('Этот год не високосный')
 
-print(high_year(int(input('Введите год: '))))
+high_year()
